@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="D:\Devl\KennyN\PracticeSpace\Predictor" t="IncludeFlat">
+      <e p="Os.Application" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Comedian.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Os.Application.csproj" t="IncludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Os.IntegrationTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CurrencyExchangeRatePredictor" t="Include">
+          <e p="CurrencyExchangeRatePredictorSpec.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Os.IntegrationTests.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Os.Services" t="IncludeRecursive">
+        <e p="Api" t="Include">
+          <e p="Base" t="Include">
+            <e p="ApiClient.cs" t="Include" />
+            <e p="ICurrencyExchangeRateApiProvider.cs" t="Include" />
+          </e>
+          <e p="OpenExchangeRates" t="Include">
+            <e p="CurrencyExchangeRate.cs" t="Include" />
+            <e p="OpenExchangeRatesApiClient.cs" t="Include" />
+            <e p="OpenExchangeRatesApiProvider.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="Constants.cs" t="Include" />
+          <e p="ExtensionMethods.cs" t="Include" />
+          <e p="Messages" t="Include">
+            <e p="IMessageItem.cs" t="Include" />
+            <e p="IMessages.cs" t="Include" />
+            <e p="IServiceMessagesBase.cs" t="Include" />
+            <e p="Itext.cs" t="Include" />
+            <e p="MessageItemBase.cs" t="Include" />
+            <e p="ServiceMessagesBase.cs" t="Include" />
+          </e>
+          <e p="ValueObjectBase.cs" t="Include" />
+        </e>
+        <e p="CurrencyExchangeRatePredictor" t="Include">
+          <e p="Algorithm" t="Include">
+            <e p="CurrencyExchangeRatePredictor.cs" t="Include" />
+            <e p="ICurrencyExchangeRatePredictor.cs" t="Include" />
+            <e p="LinearRegressionRatePredictor.cs" t="Include" />
+          </e>
+          <e p="CurrencyExchangePredictorService.cs" t="Include" />
+          <e p="Model" t="Include">
+            <e p="CurrencyExchangeRate" t="Include">
+              <e p="ICurrencyExchangeRateModel.cs" t="Include" />
+              <e p="LinearRegressionModel.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ServiceMessages" t="Include">
+            <e p="GeneratePredictModelRequest.cs" t="Include" />
+            <e p="GeneratePredictModelResponse.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Os.Services.csproj" t="IncludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Text" t="Include">
+          <e p="CurrencyExchangePredictorMessages.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Os.UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LinearRegressionModelSpec.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Os.UnitTests.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Predictor.sln" t="IncludeFlat" />
+    </e>
+    <e p="D:\Users\KennyN\.Rider2018.3\config\extensions" t="IncludeRecursive" />
+    <e p="D:\Users\KennyN\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="D:\Users\KennyN\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Predictor.-728286313.00" t="ExcludeRecursive" />
+  </component>
+</project>
